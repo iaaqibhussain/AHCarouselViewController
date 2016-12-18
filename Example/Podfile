@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHCarouselViewController_Example' do
+  pod 'AHCarouselViewController', :path => '../'
+
+  target 'AHCarouselViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
