@@ -1,6 +1,6 @@
 //
 //  AHCarouselViewController.swift
-//  Carousel
+//  AHCarouselViewController
 //
 //  Created by Aaqib Hussain on 10/12/16.
 //  Copyright © 2016 Aaqib Hussain. All rights reserved.

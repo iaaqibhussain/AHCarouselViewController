@@ -19,9 +19,8 @@ class ViewController: UIViewController , AHCarouselDelegate {
         let carousel = AHCarouselViewController(self.view.frame, carouselImages: image)
         carousel.delegate = self
         carousel.carouselAnimation = true
-        carousel.carouselAnimationTimeInterval = 4
-        carousel.pageIndicatorTintColor = UIColor.black
-        carousel.currentPageIndicatorTintColor = UIColor.white
+        carousel.pageIndicatorTintColor = UIColor.gray
+
         
         
         self.view.addSubview(carousel.view)
