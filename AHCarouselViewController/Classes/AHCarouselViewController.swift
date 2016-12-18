@@ -153,9 +153,11 @@ public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
         
     }
     override public func viewDidDisappear(_ animated: Bool) {
-        if (self.timer?.isValid)!{
-            self.timer?.invalidate()
-            
+        if let timer = self.timer{
+            if (timer.isValid){
+                timer.invalidate()
+                
+            }
         }
     }
     override public func viewDidLayoutSubviews() {
@@ -203,10 +205,12 @@ public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
         
     }
     deinit {
-        if (self.timer?.isValid)!{
-            self.timer?.invalidate()
+        if let timer = self.timer{
+        if (timer.isValid){
+            timer.invalidate()
             
         }
+    }
     }
     
 }
