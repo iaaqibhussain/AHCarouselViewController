@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014F208397811382063EE9F10F723819 /* AHCarouselViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1A507C653BA97849B09CFEDC8BBCE3 /* AHCarouselViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		283E58FEBD0934BCD0F6253F39E2E814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3A3C387C20B905184F819B85F285752B /* Pods-AHCarouselViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9FEDB94DE3AF30790A1C861714065F /* Pods-AHCarouselViewController_Tests-dummy.m */; };
+		61F6041212E9F7654EBC5B5C21E55336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6B9FCCB693444C20E4A66FC9996C7FB7 /* Pods-AHCarouselViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF79917EA2D9FA8F111CBA3597015CE /* Pods-AHCarouselViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E492F9A18250C5F0183A464DC78425 /* Pods-AHCarouselViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE96E535D69315572CD7E58406BB9F8 /* Pods-AHCarouselViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DFA50E05A33CED0D8196E6D820C3040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		86AF850683DC45E195E1319BD8CCA6D1 /* AHCarouselViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE75884F8B2718AC52477A5100088CA /* AHCarouselViewController-dummy.m */; };
+		8FB5715995E889F009CC35472ED19B34 /* AHCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B60D10AC0720BAEF379D8B388A463 /* AHCarouselViewController.swift */; };
+		F2FBD3C1885DAD997E7DBFEC1001A496 /* Pods-AHCarouselViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C30F0C0510DDAE251AC1E3E9729843FD /* Pods-AHCarouselViewController_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7CF6F8A8620AC48B335B2139791014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859E2487D946E9FE0F59A56C2900C0A0;
+			remoteInfo = AHCarouselViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17002E0723230DE4AE76799994F125F6 /* Pods-AHCarouselViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHCarouselViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		182E019691710EB12BA4E966C90F247A /* Pods-AHCarouselViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHCarouselViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C606F907799CC3E7F7A22B5AFFDC792 /* Pods_AHCarouselViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHCarouselViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1A507C653BA97849B09CFEDC8BBCE3 /* AHCarouselViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHCarouselViewController-umbrella.h"; sourceTree = "<group>"; };
+		46057622FB812B0D8304C10A3338DB5C /* Pods-AHCarouselViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		61524A7BA8E2303D9544EC9316B3E82E /* AHCarouselViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHCarouselViewController.xcconfig; sourceTree = "<group>"; };
+		68ECAB775F2216420E42F1FCC1E2E2F6 /* Pods-AHCarouselViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D31F7915F30888EEFC6F763AA88B6BD /* Pods-AHCarouselViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHCarouselViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F9FEDB94DE3AF30790A1C861714065F /* Pods-AHCarouselViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHCarouselViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		71FE2E51957904C819BC46CC7BEAE9C9 /* Pods-AHCarouselViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		761A39237DE7E77CCAF38C5DEA6CC163 /* Pods-AHCarouselViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHCarouselViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F86D43EEDBE7E257500F45212C3512F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF00D13BB3023D561F2DABD49C04FEB /* Pods_AHCarouselViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHCarouselViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE75884F8B2718AC52477A5100088CA /* AHCarouselViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHCarouselViewController-dummy.m"; sourceTree = "<group>"; };
+		C0FD6552B173529E3EB0B54825463388 /* AHCarouselViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHCarouselViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30F0C0510DDAE251AC1E3E9729843FD /* Pods-AHCarouselViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHCarouselViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		C44C5014242ECF8254B6504CA3F9B585 /* Pods-AHCarouselViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C6325D586C2B5D6FF5C6EAD1F0FA0389 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCE96E535D69315572CD7E58406BB9F8 /* Pods-AHCarouselViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHCarouselViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CDA194C34CF65F8C838EC161CBF83607 /* Pods-AHCarouselViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDB4F302173D657026CFC579C1A83C6B /* AHCarouselViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AHCarouselViewController.modulemap; sourceTree = "<group>"; };
+		CE143B24A39172F782D84FC37D60B636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CCE9CBA26568F3D7833AE6E7D4C028 /* Pods-AHCarouselViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		E2A5B1D526014B079009CBFD20D85CEA /* Pods-AHCarouselViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AHCarouselViewController_Example.modulemap"; sourceTree = "<group>"; };
+		E3DDF970206B65F0F9E1799DB3F8820A /* AHCarouselViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHCarouselViewController-prefix.pch"; sourceTree = "<group>"; };
+		EDF79917EA2D9FA8F111CBA3597015CE /* Pods-AHCarouselViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHCarouselViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		FB7A2291530F652C65C6E49DABDF86AC /* Pods-AHCarouselViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FDB84CF4A41962135E03720D4F374E91 /* Pods-AHCarouselViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AHCarouselViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		FE86EAE01F16715792B35DC2D15A34C6 /* Pods-AHCarouselViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1B60D10AC0720BAEF379D8B388A463 /* AHCarouselViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHCarouselViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57D647A36AE55164AC85C2D6E7FD7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F6041212E9F7654EBC5B5C21E55336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0497BEC29A3FEBCC3419AD53895FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFA50E05A33CED0D8196E6D820C3040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56DA6BE69844B00ECAAEDD4025F0E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283E58FEBD0934BCD0F6253F39E2E814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178EE928E4C07F697429D433AE3027DB /* Pods-AHCarouselViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6325D586C2B5D6FF5C6EAD1F0FA0389 /* Info.plist */,
+				FDB84CF4A41962135E03720D4F374E91 /* Pods-AHCarouselViewController_Tests.modulemap */,
+				182E019691710EB12BA4E966C90F247A /* Pods-AHCarouselViewController_Tests-acknowledgements.markdown */,
+				6D31F7915F30888EEFC6F763AA88B6BD /* Pods-AHCarouselViewController_Tests-acknowledgements.plist */,
+				6F9FEDB94DE3AF30790A1C861714065F /* Pods-AHCarouselViewController_Tests-dummy.m */,
+				C44C5014242ECF8254B6504CA3F9B585 /* Pods-AHCarouselViewController_Tests-frameworks.sh */,
+				46057622FB812B0D8304C10A3338DB5C /* Pods-AHCarouselViewController_Tests-resources.sh */,
+				CCE96E535D69315572CD7E58406BB9F8 /* Pods-AHCarouselViewController_Tests-umbrella.h */,
+				68ECAB775F2216420E42F1FCC1E2E2F6 /* Pods-AHCarouselViewController_Tests.debug.xcconfig */,
+				71FE2E51957904C819BC46CC7BEAE9C9 /* Pods-AHCarouselViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-AHCarouselViewController_Tests";
+			path = "Target Support Files/Pods-AHCarouselViewController_Tests";
+			sourceTree = "<group>";
+		};
+		3ECC14DD1988C6374D6CAE300AB2AB2B /* Pods-AHCarouselViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE143B24A39172F782D84FC37D60B636 /* Info.plist */,
+				E2A5B1D526014B079009CBFD20D85CEA /* Pods-AHCarouselViewController_Example.modulemap */,
+				761A39237DE7E77CCAF38C5DEA6CC163 /* Pods-AHCarouselViewController_Example-acknowledgements.markdown */,
+				17002E0723230DE4AE76799994F125F6 /* Pods-AHCarouselViewController_Example-acknowledgements.plist */,
+				C30F0C0510DDAE251AC1E3E9729843FD /* Pods-AHCarouselViewController_Example-dummy.m */,
+				FB7A2291530F652C65C6E49DABDF86AC /* Pods-AHCarouselViewController_Example-frameworks.sh */,
+				E1CCE9CBA26568F3D7833AE6E7D4C028 /* Pods-AHCarouselViewController_Example-resources.sh */,
+				EDF79917EA2D9FA8F111CBA3597015CE /* Pods-AHCarouselViewController_Example-umbrella.h */,
+				FE86EAE01F16715792B35DC2D15A34C6 /* Pods-AHCarouselViewController_Example.debug.xcconfig */,
+				CDA194C34CF65F8C838EC161CBF83607 /* Pods-AHCarouselViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-AHCarouselViewController_Example";
+			path = "Target Support Files/Pods-AHCarouselViewController_Example";
+			sourceTree = "<group>";
+		};
+		606568D77F68681EE9A4DCC4EB11F638 /* AHCarouselViewController */ = {
+			isa = PBXGroup;
+			children = (
+				72B4AC064DA7B2CCC05763DC3A7CEC35 /* AHCarouselViewController */,
+				B8B1A6EF1BE7AA691A0297465D71342C /* Support Files */,
+			);
+			name = AHCarouselViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72B4AC064DA7B2CCC05763DC3A7CEC35 /* AHCarouselViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BAA799903662A61C98C1B240547192E4 /* Classes */,
+			);
+			path = AHCarouselViewController;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				95A21D96C01CC365742F878AF1923B32 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				87DB2F7939CEC45637762E0B47227150 /* Products */,
+				A3EA701F2F05B442A60D5F2AC6E83FCF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87DB2F7939CEC45637762E0B47227150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD6552B173529E3EB0B54825463388 /* AHCarouselViewController.framework */,
+				9AF00D13BB3023D561F2DABD49C04FEB /* Pods_AHCarouselViewController_Example.framework */,
+				3C606F907799CC3E7F7A22B5AFFDC792 /* Pods_AHCarouselViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A21D96C01CC365742F878AF1923B32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				606568D77F68681EE9A4DCC4EB11F638 /* AHCarouselViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3EA701F2F05B442A60D5F2AC6E83FCF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC14DD1988C6374D6CAE300AB2AB2B /* Pods-AHCarouselViewController_Example */,
+				178EE928E4C07F697429D433AE3027DB /* Pods-AHCarouselViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8B1A6EF1BE7AA691A0297465D71342C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB4F302173D657026CFC579C1A83C6B /* AHCarouselViewController.modulemap */,
+				61524A7BA8E2303D9544EC9316B3E82E /* AHCarouselViewController.xcconfig */,
+				9CE75884F8B2718AC52477A5100088CA /* AHCarouselViewController-dummy.m */,
+				E3DDF970206B65F0F9E1799DB3F8820A /* AHCarouselViewController-prefix.pch */,
+				3E1A507C653BA97849B09CFEDC8BBCE3 /* AHCarouselViewController-umbrella.h */,
+				8F86D43EEDBE7E257500F45212C3512F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHCarouselViewController";
+			sourceTree = "<group>";
+		};
+		BAA799903662A61C98C1B240547192E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B60D10AC0720BAEF379D8B388A463 /* AHCarouselViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30EF969FFEED7B503485D7870B404859 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E492F9A18250C5F0183A464DC78425 /* Pods-AHCarouselViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36381BC086E57A7D0EF72039C069461F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014F208397811382063EE9F10F723819 /* AHCarouselViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C7D9810C59302075C50FCF01F6B70B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9FCCB693444C20E4A66FC9996C7FB7 /* Pods-AHCarouselViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15B3A735C4940C1DDE7FF1487E6B6743 /* Pods-AHCarouselViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E41319DB8B46431AB707EAE9FBF7D86 /* Build configuration list for PBXNativeTarget "Pods-AHCarouselViewController_Tests" */;
+			buildPhases = (
+				AA25465509A5E7ADF1A1EF4BFC1EE8DF /* Sources */,
+				D0497BEC29A3FEBCC3419AD53895FD09 /* Frameworks */,
+				30EF969FFEED7B503485D7870B404859 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AHCarouselViewController_Tests";
+			productName = "Pods-AHCarouselViewController_Tests";
+			productReference = 3C606F907799CC3E7F7A22B5AFFDC792 /* Pods_AHCarouselViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32691F32B1CE4C142C6546E4F38FAC27 /* Pods-AHCarouselViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4306F3502085AD49B80C0A1609778CBF /* Build configuration list for PBXNativeTarget "Pods-AHCarouselViewController_Example" */;
+			buildPhases = (
+				455F1CCC955214A11C54FC80DFFA98E8 /* Sources */,
+				B57D647A36AE55164AC85C2D6E7FD7DF /* Frameworks */,
+				C7C7D9810C59302075C50FCF01F6B70B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DDF05CA27D4BA9F7C030D8AF2D39EA /* PBXTargetDependency */,
+			);
+			name = "Pods-AHCarouselViewController_Example";
+			productName = "Pods-AHCarouselViewController_Example";
+			productReference = 9AF00D13BB3023D561F2DABD49C04FEB /* Pods_AHCarouselViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		859E2487D946E9FE0F59A56C2900C0A0 /* AHCarouselViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B072143416E9E576BD8DC2F7179FEAEE /* Build configuration list for PBXNativeTarget "AHCarouselViewController" */;
+			buildPhases = (
+				00724DA2DD8C1DAC3E1F997E61B4BE03 /* Sources */,
+				E56DA6BE69844B00ECAAEDD4025F0E8B /* Frameworks */,
+				36381BC086E57A7D0EF72039C069461F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHCarouselViewController;
+			productName = AHCarouselViewController;
+			productReference = C0FD6552B173529E3EB0B54825463388 /* AHCarouselViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 87DB2F7939CEC45637762E0B47227150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				859E2487D946E9FE0F59A56C2900C0A0 /* AHCarouselViewController */,
+				32691F32B1CE4C142C6546E4F38FAC27 /* Pods-AHCarouselViewController_Example */,
+				15B3A735C4940C1DDE7FF1487E6B6743 /* Pods-AHCarouselViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00724DA2DD8C1DAC3E1F997E61B4BE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AF850683DC45E195E1319BD8CCA6D1 /* AHCarouselViewController-dummy.m in Sources */,
+				8FB5715995E889F009CC35472ED19B34 /* AHCarouselViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455F1CCC955214A11C54FC80DFFA98E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FBD3C1885DAD997E7DBFEC1001A496 /* Pods-AHCarouselViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25465509A5E7ADF1A1EF4BFC1EE8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3C387C20B905184F819B85F285752B /* Pods-AHCarouselViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DDF05CA27D4BA9F7C030D8AF2D39EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHCarouselViewController;
+			target = 859E2487D946E9FE0F59A56C2900C0A0 /* AHCarouselViewController */;
+			targetProxy = BE7CF6F8A8620AC48B335B2139791014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		307EB3CA038C266292FC60216C4B9BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FE2E51957904C819BC46CC7BEAE9C9 /* Pods-AHCarouselViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHCarouselViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHCarouselViewController_Tests/Pods-AHCarouselViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHCarouselViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39DFF1585CF508D81640840D8F4AC0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE86EAE01F16715792B35DC2D15A34C6 /* Pods-AHCarouselViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHCarouselViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHCarouselViewController_Example/Pods-AHCarouselViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHCarouselViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643238D8AF4BF11F7ECDD17D621DA89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61524A7BA8E2303D9544EC9316B3E82E /* AHCarouselViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHCarouselViewController/AHCarouselViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHCarouselViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHCarouselViewController/AHCarouselViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHCarouselViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		848260F5C1E972C252F0587509E3CED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61524A7BA8E2303D9544EC9316B3E82E /* AHCarouselViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHCarouselViewController/AHCarouselViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHCarouselViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHCarouselViewController/AHCarouselViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHCarouselViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE994354685B960F8CAB6172BFFFD929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68ECAB775F2216420E42F1FCC1E2E2F6 /* Pods-AHCarouselViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHCarouselViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHCarouselViewController_Tests/Pods-AHCarouselViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHCarouselViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9202DAE3396EF1AB47A1F1C177EBE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA194C34CF65F8C838EC161CBF83607 /* Pods-AHCarouselViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHCarouselViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHCarouselViewController_Example/Pods-AHCarouselViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHCarouselViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4306F3502085AD49B80C0A1609778CBF /* Build configuration list for PBXNativeTarget "Pods-AHCarouselViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DFF1585CF508D81640840D8F4AC0CE /* Debug */,
+				F9202DAE3396EF1AB47A1F1C177EBE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E41319DB8B46431AB707EAE9FBF7D86 /* Build configuration list for PBXNativeTarget "Pods-AHCarouselViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE994354685B960F8CAB6172BFFFD929 /* Debug */,
+				307EB3CA038C266292FC60216C4B9BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B072143416E9E576BD8DC2F7179FEAEE /* Build configuration list for PBXNativeTarget "AHCarouselViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848260F5C1E972C252F0587509E3CED6 /* Debug */,
+				643238D8AF4BF11F7ECDD17D621DA89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

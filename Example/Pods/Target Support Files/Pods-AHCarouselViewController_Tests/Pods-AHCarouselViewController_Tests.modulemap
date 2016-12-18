@@ -1,0 +1,6 @@
+framework module Pods_AHCarouselViewController_Tests {
+  umbrella header "Pods-AHCarouselViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

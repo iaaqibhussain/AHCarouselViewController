@@ -1,0 +1,16 @@
+PODS:
+  - AHCarouselViewController (0.1.0)
+
+DEPENDENCIES:
+  - AHCarouselViewController (from `../`)
+
+EXTERNAL SOURCES:
+  AHCarouselViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHCarouselViewController: 21e4bb9366e6391dd87dc427c6ee80d8804c909a
+
+PODFILE CHECKSUM: 24d931ad6cd27ae75176773d5a3728778b9315f3
+
+COCOAPODS: 1.1.1

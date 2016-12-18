@@ -1,0 +1,6 @@
+framework module AHCarouselViewController {
+  umbrella header "AHCarouselViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
