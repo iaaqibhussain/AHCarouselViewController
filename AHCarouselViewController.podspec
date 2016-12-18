@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Aaqib Hussain' => 'iaaqibhussain@outlook.com' }
   s.source           = { :git => 'https://github.com/iaaqib/AHCarouselViewController.git', :tag => s.version }
 
+
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'AHCarouselViewController/Classes/**/*'
