@@ -183,7 +183,9 @@ public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
             }
         }
         //Passing data to carousel delegate
-        delegate!.carouselDidChange!(carouselViewController: self, carousel: scrollView)
+        if let delegate = self.delegate{
+        delegate.carouselDidChange!(carouselViewController: self, carousel: scrollView)
+        }
         
     }
     //MARK: Animation function
@@ -200,7 +202,7 @@ public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
             scrollView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
             self.pageCount = -1
         }
-        print("Count:\(pageCount)")
+        
         self.pageControl.currentPage = pageCount
         
     }
