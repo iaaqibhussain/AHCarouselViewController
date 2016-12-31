@@ -9,4 +9,4 @@ xcode_scheme: AHCarouselViewController-Example
 
 
 script:
-- xcodebuild clean build test -project Example/AHCarouselViewController.xcodeproj -scheme AHCarouselViewController-Example
+- xcodebuild clean build test -project Example/AHCarouselViewController.xcodeproj -scheme AHCarouselViewController-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0'
