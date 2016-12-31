@@ -8,5 +8,3 @@ xcode_workspace: AHCarouselViewController.xcworkspace
 xcode_scheme: AHCarouselViewController-Example
 
 
-script:
-- xcodebuild clean build test -workspace Example/AHCarouselViewController.xcworkspace -scheme AHCarouselViewController-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3'
