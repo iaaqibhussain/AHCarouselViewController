@@ -7,4 +7,5 @@ osx_image: xcode8.0
 xcode_workspace: AHCarouselViewController.xcworkspace 
 xcode_scheme: AHCarouselViewController-Example
 
-
+script:
+xctool -workspace Example/AHCarouselViewController.xcworkspace -scheme AHCarouselViewController-Example build test
