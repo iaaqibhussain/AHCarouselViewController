@@ -9,5 +9,5 @@ xcode_scheme: AHCarouselViewController_Example
 xcode_sdk: iphonesimulator10.0.
 
 script:
-- set -o pipefail && xcodebuild test -workspace Example/AHCarouselViewController.xcworkspace -scheme AHCarouselViewController_Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild clean build test -project Example/AHCarouselViewController.xcodeproj -scheme AHCarouselViewController_Example -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
