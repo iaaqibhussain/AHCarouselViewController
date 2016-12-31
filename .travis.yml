@@ -5,8 +5,8 @@
 language: objective-c  
 osx_image: xcode8.0 
 xcode_project: AHCarouselViewController.xcodeproj 
-xcode_scheme: AHCarouselViewController_Example
+xcode_scheme: AHCarouselViewController-Example
 xcode_sdk: iphonesimulator10.0.
 
 script:
-- xcodebuild clean build test -project Example/AHCarouselViewController.xcodeproj -scheme AHCarouselViewController_Example
+- xcodebuild clean build test -project Example/AHCarouselViewController.xcodeproj -scheme AHCarouselViewController-Example
