@@ -8,7 +8,7 @@
 
 
 import UIKit
-
+import Foundation
 extension  UIImageView {
     
     
@@ -30,7 +30,7 @@ extension  UIImageView {
                 if error == nil {
                     if let  data = data,
                         let image = UIImage(data: data) {
-                        AHCache.sharedInstance.setObject(
+                        AHCache.sharedInstance.cache.setObject(
                             image,
                             forKey: url.absoluteString as NSString,
                             cost: data.count)
@@ -54,7 +54,7 @@ extension  UIImageView {
     }
     
     fileprivate func containsImageInCache(_ key: NSString) -> Bool{
-        if (AHCache.sharedInstance.object(forKey: key)  == nil){
+        if (AHCache.sharedInstance.cache.object(forKey: key)  == nil){
             debugPrint("Not in Cache so download:\(key)")
             return false
             

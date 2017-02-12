@@ -8,25 +8,38 @@
 
 
 import UIKit
+import Foundation
 
-class AHCache: NSObject {
+public class AHCache: NSObject {
+    
+    var cache : NSCache<NSString,UIImage>
+    static let sharedInstance = AHCache()
     
     //Cache Memory can be adjusted from totalCostLimit
-    static let sharedInstance : NSCache<NSString,UIImage> = {
-        
-        let cache = NSCache<NSString,UIImage>()
+    
+   
+    override init() {
+        cache = NSCache<NSString,UIImage>()
         cache.name = "AHCache"
         cache.countLimit = 20
         cache.totalCostLimit = 20*1024*1024
         cache.evictsObjectsWithDiscardedContent = true
-        return cache
-        
-        
-    }()
+    }
+//    static let sharedInstance : NSCache<NSString,UIImage> = {
+//        
+//        let cache = NSCache<NSString,UIImage>()
+//        cache.name = "AHCache"
+//        cache.countLimit = 20
+//        cache.totalCostLimit = 20*1024*1024
+//        cache.evictsObjectsWithDiscardedContent = true
+//        return cache
+//        
+//        
+//    }()
     
-    static func clearCache(){
+     func clearCache(){
         
-        AHCache.sharedInstance.removeAllObjects()
+        AHCache.sharedInstance.cache.removeAllObjects()
         
     }
     
