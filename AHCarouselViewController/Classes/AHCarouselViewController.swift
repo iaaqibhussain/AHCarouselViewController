@@ -15,7 +15,7 @@ import UIKit
 public typealias carouselView = UIScrollView
 public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
     
-    private var carouselImages : [UIImage]?
+    private var carouselImages : [AnyObject]?
     var scrollView : UIScrollView!
     var pageControl : UIPageControl!
     public var delegate : AHCarouselDelegate?
@@ -124,6 +124,33 @@ public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
         
         print("Carousel Images:\(carouselImages?.count)")
     }
+    public convenience init(_ frame: CGRect? , carouselImages : [String?]?){
+        
+        self.init()
+        
+        print(#function)
+        if let carouselFrame = frame{
+            self.scrollView = UIScrollView()
+            self.scrollView.showsHorizontalScrollIndicator = false
+            self.scrollView.frame = carouselFrame
+            // self.scrollView.delegate = self
+            print(self.scrollView!.frame)
+        }
+        if let carousel = carouselImages{
+            self.carouselImages = [String]() as [AnyObject]?
+            self.carouselImages = carousel as [AnyObject]?
+        }
+        if let noOfPages = carouselImages{
+            pageControl = UIPageControl()
+            pageControl.frame = CGRect(x: self.scrollView.frame.size.width / 2 - 13 * CGFloat(noOfPages.count) / 2, y: self.scrollView.frame.maxY - 37, width: 13 * CGFloat(noOfPages.count), height: 37)
+            pageControl.pageIndicatorTintColor = UIColor.white
+            pageControl.currentPage = 0
+            pageControl.numberOfPages = noOfPages.count
+            
+        }
+        
+        print("Carousel Images:\(carouselImages?.count)")
+    }
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -137,9 +164,19 @@ public class AHCarouselViewController: UIViewController, UIScrollViewDelegate {
             let imageView = UIImageView()
             imageView.frame = CGRect(x: self.scrollView.frame.size.width * CGFloat(i), y: 0, width: self.scrollView.frame.size.width, height: self.scrollView.frame.size.height)
             
-            if let image = carouselImages?[i]{
+            if let image = carouselImages?[i] as? UIImage{
                 imageView.image = image
                 
+            }
+            if let image = carouselImages?[i] as? String{
+                if let url = URL(string: image) {
+                imageView.downloadImage(url, completion: { (error) in
+                    if let error = error{
+                    
+                    debugPrint(error.localizedDescription)
+                    }
+                })
+                }
             }
             self.scrollView.addSubview(imageView)
         }

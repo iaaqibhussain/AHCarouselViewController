@@ -18,7 +18,8 @@ class ViewController: UIViewController , AHCarouselDelegate {
 //        let image : [UIImage]? = [UIImage(named:"coby")!, UIImage(named:"coby")!, UIImage(named:"coby")!, UIImage(named:"coby")!, UIImage(named:"coby")!, UIImage(named:"coby")!, UIImage(named:"coby")!]
 //        let carousel = AHCarouselViewController(self.view.frame, carouselImages: image)
 
-        let carousel = AHCarouselViewController(self.view.frame, carouselImagesUrl: imageUrl)
+        let carousel =
+        AHCarouselViewController(self.view.frame, carouselImages: imageUrl)
         carousel.delegate = self
         carousel.carouselAnimation = true
         carousel.pageIndicatorTintColor = UIColor.gray

@@ -1,6 +1,6 @@
 {
   "name": "AHCarouselViewController",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A simple carousel library written in Swift 3.",
   "description": "AHCarouselViewController Provides you the ability to create your image slider with few lines of code.",
   "homepage": "https://github.com/iaaqib/AHCarouselViewController",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/iaaqib/AHCarouselViewController.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
