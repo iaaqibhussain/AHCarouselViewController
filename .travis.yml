@@ -3,10 +3,9 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c  
-osx_image: xcode8.0 
-xcode_project: AHCarouselViewController.xcodeproj 
+osx_image: xcode8 
+xcode_workspace: Example/AHCarouselViewController.xcworkspace 
 xcode_scheme: AHCarouselViewController-Example
 
-
-script:
-- xcodebuild clean build test -project Example/AHCarouselViewController.xcodeproj -scheme AHCarouselViewController-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0'
+script: 
+— xcodebuild clean build -workspace Example/AHCarouselViewController.xcworkspace  -scheme AHCarouselViewController-Example -destination “platform=iOS Simulator,name=iPhone 6S”
