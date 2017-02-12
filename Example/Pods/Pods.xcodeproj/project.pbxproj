@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		35E53703C469B310880C558A5101B2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3A3C387C20B905184F819B85F285752B /* Pods-AHCarouselViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9FEDB94DE3AF30790A1C861714065F /* Pods-AHCarouselViewController_Tests-dummy.m */; };
-		5855F6194F41080A5169F7940E119ABB /* AHCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B2A8031DAD7B06001382BC5DA4A28 /* AHCache.swift */; };
 		61F6041212E9F7654EBC5B5C21E55336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6B9FCCB693444C20E4A66FC9996C7FB7 /* Pods-AHCarouselViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF79917EA2D9FA8F111CBA3597015CE /* Pods-AHCarouselViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76E492F9A18250C5F0183A464DC78425 /* Pods-AHCarouselViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE96E535D69315572CD7E58406BB9F8 /* Pods-AHCarouselViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DFA50E05A33CED0D8196E6D820C3040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8D83B21458FE75BBAA4DA5EB07B2299A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2D34BB393276FDB4BB6043DF0DC95 /* Extensions.swift */; };
 		9A96EF93A69229156037506F9476E4A1 /* AHCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2533CD775069C28599D1A1F9D0E9C /* AHCarouselViewController.swift */; };
 		CF90C1FA6081746EA69AC4235E26BA71 /* AHCarouselViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE75884F8B2718AC52477A5100088CA /* AHCarouselViewController-dummy.m */; };
 		E19C457A6DB7E4522765FC910318D6DA /* AHCarouselViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1A507C653BA97849B09CFEDC8BBCE3 /* AHCarouselViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,10 +32,9 @@
 /* Begin PBXFileReference section */
 		17002E0723230DE4AE76799994F125F6 /* Pods-AHCarouselViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHCarouselViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		182E019691710EB12BA4E966C90F247A /* Pods-AHCarouselViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHCarouselViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C606F907799CC3E7F7A22B5AFFDC792 /* Pods_AHCarouselViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHCarouselViewController_Tests.framework; path = "Pods-AHCarouselViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C606F907799CC3E7F7A22B5AFFDC792 /* Pods_AHCarouselViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHCarouselViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1A507C653BA97849B09CFEDC8BBCE3 /* AHCarouselViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHCarouselViewController-umbrella.h"; sourceTree = "<group>"; };
 		46057622FB812B0D8304C10A3338DB5C /* Pods-AHCarouselViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		54C2D34BB393276FDB4BB6043DF0DC95 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		61524A7BA8E2303D9544EC9316B3E82E /* AHCarouselViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHCarouselViewController.xcconfig; sourceTree = "<group>"; };
 		68ECAB775F2216420E42F1FCC1E2E2F6 /* Pods-AHCarouselViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D31F7915F30888EEFC6F763AA88B6BD /* Pods-AHCarouselViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHCarouselViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -45,26 +42,25 @@
 		71FE2E51957904C819BC46CC7BEAE9C9 /* Pods-AHCarouselViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		761A39237DE7E77CCAF38C5DEA6CC163 /* Pods-AHCarouselViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHCarouselViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F86D43EEDBE7E257500F45212C3512F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AF00D13BB3023D561F2DABD49C04FEB /* Pods_AHCarouselViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHCarouselViewController_Example.framework; path = "Pods-AHCarouselViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF00D13BB3023D561F2DABD49C04FEB /* Pods_AHCarouselViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHCarouselViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE75884F8B2718AC52477A5100088CA /* AHCarouselViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHCarouselViewController-dummy.m"; sourceTree = "<group>"; };
-		C0FD6552B173529E3EB0B54825463388 /* AHCarouselViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHCarouselViewController.framework; path = AHCarouselViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FD6552B173529E3EB0B54825463388 /* AHCarouselViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHCarouselViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30F0C0510DDAE251AC1E3E9729843FD /* Pods-AHCarouselViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHCarouselViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		C44C5014242ECF8254B6504CA3F9B585 /* Pods-AHCarouselViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C6325D586C2B5D6FF5C6EAD1F0FA0389 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCE96E535D69315572CD7E58406BB9F8 /* Pods-AHCarouselViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHCarouselViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CDA194C34CF65F8C838EC161CBF83607 /* Pods-AHCarouselViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CDB4F302173D657026CFC579C1A83C6B /* AHCarouselViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHCarouselViewController.modulemap; sourceTree = "<group>"; };
+		CDB4F302173D657026CFC579C1A83C6B /* AHCarouselViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AHCarouselViewController.modulemap; sourceTree = "<group>"; };
 		CE143B24A39172F782D84FC37D60B636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA5B2A8031DAD7B06001382BC5DA4A28 /* AHCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHCache.swift; sourceTree = "<group>"; };
 		E1CCE9CBA26568F3D7833AE6E7D4C028 /* Pods-AHCarouselViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		E2A5B1D526014B079009CBFD20D85CEA /* Pods-AHCarouselViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHCarouselViewController_Example.modulemap"; sourceTree = "<group>"; };
+		E2A5B1D526014B079009CBFD20D85CEA /* Pods-AHCarouselViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AHCarouselViewController_Example.modulemap"; sourceTree = "<group>"; };
 		E3DDF970206B65F0F9E1799DB3F8820A /* AHCarouselViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHCarouselViewController-prefix.pch"; sourceTree = "<group>"; };
 		EDF79917EA2D9FA8F111CBA3597015CE /* Pods-AHCarouselViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHCarouselViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		F8F2533CD775069C28599D1A1F9D0E9C /* AHCarouselViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHCarouselViewController.swift; sourceTree = "<group>"; };
 		FB7A2291530F652C65C6E49DABDF86AC /* Pods-AHCarouselViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHCarouselViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FDB84CF4A41962135E03720D4F374E91 /* Pods-AHCarouselViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHCarouselViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		FDB84CF4A41962135E03720D4F374E91 /* Pods-AHCarouselViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AHCarouselViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		FE86EAE01F16715792B35DC2D15A34C6 /* Pods-AHCarouselViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHCarouselViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,11 +113,8 @@
 		2D8D78576E502E8B10BDDB5123E4AB54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DA5B2A8031DAD7B06001382BC5DA4A28 /* AHCache.swift */,
 				F8F2533CD775069C28599D1A1F9D0E9C /* AHCarouselViewController.swift */,
-				54C2D34BB393276FDB4BB6043DF0DC95 /* Extensions.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -226,7 +219,6 @@
 			children = (
 				2D8D78576E502E8B10BDDB5123E4AB54 /* Classes */,
 			);
-			name = AHCarouselViewController;
 			path = AHCarouselViewController;
 			sourceTree = "<group>";
 		};
@@ -345,10 +337,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5855F6194F41080A5169F7940E119ABB /* AHCache.swift in Sources */,
 				CF90C1FA6081746EA69AC4235E26BA71 /* AHCarouselViewController-dummy.m in Sources */,
 				9A96EF93A69229156037506F9476E4A1 /* AHCarouselViewController.swift in Sources */,
-				8D83B21458FE75BBAA4DA5EB07B2299A /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
