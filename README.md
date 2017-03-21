@@ -1,6 +1,6 @@
 # AHCarouselViewController
 
-[![CI Status](http://img.shields.io/travis/Aaqib Hussain/AHCarouselViewController.svg?style=flat)](https://travis-ci.org/Aaqib Hussain/AHCarouselViewController)
+
 [![Version](https://img.shields.io/cocoapods/v/AHCarouselViewController.svg?style=flat)](http://cocoapods.org/pods/AHCarouselViewController)
 [![License](https://img.shields.io/cocoapods/l/AHCarouselViewController.svg?style=flat)](http://cocoapods.org/pods/AHCarouselViewController)
 [![Platform](https://img.shields.io/cocoapods/p/AHCarouselViewController.svg?style=flat)](http://cocoapods.org/pods/AHCarouselViewController)
